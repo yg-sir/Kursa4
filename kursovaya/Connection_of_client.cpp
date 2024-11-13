@@ -82,7 +82,7 @@ int Client_Communicate::connection(int port, std::map<std::string, std::string> 
             } else {
                 send(work_sock, "OK", 2, 0);
                 l1->writelog("Authentication successful for user: " + login);
-                // Process further vector operations...
+                
             }
 
             close(work_sock);
