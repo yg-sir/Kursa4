@@ -1,0 +1,11 @@
+user:P@ssW0rd
+2024-11-28 20:22:48 Path to logfile set value: /home/stud/local_git/Kursa4/kursovaya/file4test/base.txt
+2024-11-28 20:22:48 Path to basefile set value: /home/stud/local_git/Kursa4/kursovaya/file4test/base.txt
+2024-11-28 20:22:48 Port set default value
+2024-11-28 20:22:48 Connect to database success!
+2024-11-28 20:22:48 Server started
+2024-11-28 20:22:48 Listen socket created
+2024-11-28 20:22:54 Login: user
+2024-11-28 20:22:54 Salt: 8D48748D1BCFF2B7
+2024-11-28 20:22:54 Received hash: 01FB73FF2B9B1E3627253209F5283458239C287979D92AB95D586C10
+2024-11-28 20:22:54 Authentication successful for user: user
