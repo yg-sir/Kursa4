@@ -357,3 +357,71 @@
 2024-11-28 20:28:20 Salt: 19712A25E217525D
 2024-11-28 20:28:20 Received hash: 636431593800C4BAB506B5B3F2B88ED51E7D1E26D69466CC5D4DEA02
 2024-11-28 20:28:20 Authentication successful for user: user
+2024-12-09 20:32:28 Path to logfile set default value
+2024-12-09 20:32:28 Path to basefile set default value
+2024-12-09 20:32:28 Port set default value
+2024-12-09 20:32:28 Connect to database success!
+2024-12-09 20:32:28 Server started
+2024-12-09 20:32:28 Listen socket created
+2024-12-09 20:32:55 Login: user
+2024-12-09 20:32:55 Salt: 782BF43F0F6536CE
+2024-12-09 20:32:55 Received hash: 229FFAC1207DC7996F6B8843E0A55C379EC9ADF86402626ACD3D045C
+2024-12-09 20:32:55 Authentication successful for user: user
+2024-12-09 21:27:51 Test log entry
+2024-12-09 21:28:42 Test log entry
+2024-12-09 21:29:18 Test log entry
+2024-12-09 21:36:34 Test log entry
+2024-12-09 21:36:34 Listen socket created
+2024-12-09 21:37:02 Test log entry
+2024-12-09 21:37:02 Listen socket created
+2024-12-09 21:39:43 Test log entry
+2024-12-09 21:39:43 Listen socket created
+2024-12-09 21:40:09 Path to logfile set default value
+2024-12-09 21:40:09 Path to basefile set default value
+2024-12-09 21:40:09 Port set default value
+2024-12-09 21:40:09 Connect to database success!
+2024-12-09 21:40:09 Server started
+2024-12-09 21:40:09 Listen socket created
+2024-12-09 21:40:16 Test log entry
+2024-12-09 21:40:16 Listen socket created
+2024-12-09 21:40:33 Login: user
+2024-12-09 21:40:33 Salt: 600D5FE990223F61
+2024-12-09 21:40:33 Received hash: B47C6960BEF23CFC55D614A06E8A21240D4C2D411454BCC8E2A6BB5C
+2024-12-09 21:40:33 Authentication successful for user: user
+2024-12-09 21:40:38 Test log entry
+2024-12-09 21:40:38 Listen socket created
+2024-12-09 21:41:41 Test log entry
+2024-12-09 21:41:41 Listen socket created
+2024-12-09 21:41:59 Test log entry
+2024-12-09 21:42:47 Test log entry
+2024-12-09 21:42:47 Listen socket created
+2024-12-09 21:44:10 Test log entry
+2024-12-09 21:50:06 Test log entry
+2024-12-09 21:52:52 Test log entry
+2024-12-09 21:53:23 Test log entry
+2024-12-09 21:53:23 Listen socket created
+2024-12-09 21:57:52 Test log entry
+2024-12-09 21:58:29 Test log entry
+2024-12-09 21:58:48 Test log entry
+2024-12-09 21:59:10 Test log entry
+2024-12-09 21:59:53 Test log entry
+2024-12-09 21:59:53 First entry
+2024-12-09 21:59:53 Second entry
+2024-12-09 22:00:19 Test log entry
+2024-12-09 22:00:19 First entry
+2024-12-09 22:00:19 Second entry
+2024-12-09 22:00:39 Test log entry
+2024-12-09 22:00:39 First entry
+2024-12-09 22:00:39 Second entry
+2024-12-09 22:03:22 Path to logfile set default value
+2024-12-09 22:03:22 Path to basefile set default value
+2024-12-09 22:03:22 Port set default value
+2024-12-09 22:03:22 Connect to database success!
+2024-12-09 22:03:22 Server started
+2024-12-09 22:03:22 Listen socket created
+2024-12-09 22:03:59 Test log entry
+2024-12-09 22:03:59 First entry
+2024-12-09 22:03:59 Second entry
+2024-12-09 22:36:48 Test log entry
+2024-12-09 22:36:48 First entry
+2024-12-09 22:36:48 Second entry

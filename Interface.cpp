@@ -22,10 +22,10 @@ int Interface::comm_proc(int argc, const char** argv)
         opts.add_options()
         ("help,h", "Show help")
         ("basefile,b",
-         po::value<std::string>()->default_value("/home/stud/local_git/Kursa4/kursovaya/file4test/base.txt"),
+         po::value<std::string>()->default_value("/home/stud/local_git/Kursa4/file4test/base.txt"),
          "option is string(path to file with database)") 
         ("logfile,l",                        
-         po::value<std::string>()->default_value("/home/stud/local_git/Kursa4/kursovaya/file4test/log.txt"), 
+         po::value<std::string>()->default_value("/home/stud/local_git/Kursa4/file4test/log.txt"), 
          "option is string(path to file with logs)")
         ("PORT,p",                               
          po::value<int>(&PORT)->default_value(33333),
@@ -40,13 +40,13 @@ int Interface::comm_proc(int argc, const char** argv)
         }
 
         if(vm.count("basefile")) {
-            if(vm["basefile"].as<std::string>() == "/home/stud/local_git/Kursa4/kursovaya/file4test/base.txt") {
+            if(vm["basefile"].as<std::string>() == "/home/stud/local_git/Kursa4/file4test/base.txt") {
                 flag_b = true;
             }
             basefile = vm["basefile"].as<std::string>();
         }
         if(vm.count("logfile")) {
-            if(vm["logfile"].as<std::string>() == "/home/stud/local_git/Kursa4/kursovaya/file4test/log.txt") {
+            if(vm["logfile"].as<std::string>() == "/home/stud/local_git/Kursa4/file4test/log.txt") {
                 flag_l = true;
             }
             logfile = vm["logfile"].as<std::string>();
@@ -59,19 +59,19 @@ int Interface::comm_proc(int argc, const char** argv)
             PORT = vm["PORT"].as<int>();
     }
  
-   	if(PORT < 1024 or PORT > 65535){
-   		throw crit_err("Incorrect port");
-   	}
+   	if(PORT < 1024 || PORT > 65535){
+    throw crit_err("Incorrect port");
+}
 	if(flag_b and flag_l and flag_p) {
         std::cout << "Server started with default parameters.\nUse -h for help"<<std::endl;
         }
     Logger l1(logfile);
-        if(logfile != "/home/stud/local_git/Kursa4/kursovaya/file4test/log.txt") {
+        if(logfile != "/home/stud/local_git/Kursa4/file4test/log.txt") {
             l1.writelog("Path to logfile set value: "+logfile);
         } else {
             l1.writelog("Path to logfile set default value");
         }
-    if(basefile != "/home/stud/local_git/Kursa4/kursovaya/file4test/base.txt") {
+    if(basefile != "/home/stud/local_git/Kursa4/file4test/base.txt") {
         l1.writelog("Path to basefile set value: " + basefile);
     } else {
         l1.writelog("Path to basefile set default value");
