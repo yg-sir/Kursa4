@@ -425,3 +425,61 @@
 2024-12-09 22:36:48 Test log entry
 2024-12-09 22:36:48 First entry
 2024-12-09 22:36:48 Second entry
+2024-12-09 23:14:48 Test log entry
+2024-12-09 23:14:48 First entry
+2024-12-09 23:14:48 Second entry
+2024-12-10 18:19:25 Test log entry
+2024-12-10 18:19:25 First entry
+2024-12-10 18:19:25 Second entry
+2024-12-10 18:41:44 Path to logfile set default value
+2024-12-10 18:41:44 Path to basefile set default value
+2024-12-10 18:41:44 Port set default value
+2024-12-10 18:44:07 Path to logfile set default value
+2024-12-10 18:44:07 Path to basefile set default value
+2024-12-10 18:44:07 Port set default value
+2024-12-10 18:45:00 Path to logfile set default value
+2024-12-10 18:45:00 Path to basefile set default value
+2024-12-10 18:45:00 Port set default value
+2024-12-10 18:45:00 Connect to database success!
+2024-12-10 18:45:00 Server started
+2024-12-10 18:45:00 Listen socket created
+2024-12-10 18:45:07 Login: user
+2024-12-10 18:45:07 Salt: FB95D288A720CA4A
+2024-12-10 18:45:07 Received hash: 86046BE190673E77681036766154BF6C15D2ED738D0F00E1D9E95090
+2024-12-10 18:45:28 Path to logfile set default value
+2024-12-10 18:45:28 Path to basefile set default value
+2024-12-10 18:45:28 Port set default value
+2024-12-10 18:45:28 Connect to database success!
+2024-12-10 18:45:28 Server started
+2024-12-10 18:45:28 Listen socket created
+2024-12-10 18:45:33 Login: user
+2024-12-10 18:45:33 Salt: E7C9CD960FBCCBF8
+2024-12-10 18:45:33 Received hash: 3047FDE360FA22E80F90BF12587379F5D0DCE1021AFA6D80FF3F510A
+2024-12-10 18:45:49 Path to logfile set default value
+2024-12-10 18:45:49 Path to basefile set default value
+2024-12-10 18:45:49 Port set default value
+2024-12-10 18:45:49 Connect to database success!
+2024-12-10 18:45:49 Server started
+2024-12-10 18:45:49 Listen socket created
+2024-12-10 18:45:54 Login: user
+2024-12-10 18:45:54 Salt: 94671E7D62F899F2
+2024-12-10 18:45:54 Received hash: ABBFA38F3430E1F3419A3F33D2590F0A2685D87220C40004EFF67B21
+2024-12-10 18:45:54 Authentication successful for user: user
+2024-12-10 18:49:19 Path to logfile set default value
+2024-12-10 18:49:19 Path to basefile set default value
+2024-12-10 18:49:19 Port set not default value
+2024-12-10 18:49:19 Connect to database success!
+2024-12-10 18:49:19 Server started
+2024-12-10 18:49:19 Listen socket created
+2024-12-10 18:52:08 Path to logfile set default value
+2024-12-10 18:52:08 Path to basefile set default value
+2024-12-10 18:52:08 Port set default value
+2024-12-10 18:52:08 Connect to database success!
+2024-12-10 18:52:08 Server started
+2024-12-10 18:52:08 Listen socket created
+2024-12-10 18:54:52 Path to logfile set default value
+2024-12-10 18:54:52 Path to basefile set default value
+2024-12-10 18:54:52 Port set default value
+2024-12-10 18:54:52 Connect to database success!
+2024-12-10 18:54:52 Server started
+2024-12-10 18:54:52 Listen socket created
