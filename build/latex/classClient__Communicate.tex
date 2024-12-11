@@ -1,0 +1,73 @@
+\hypertarget{classClient__Communicate}{}\doxysection{Класс Client\+\_\+\+Communicate}
+\label{classClient__Communicate}\index{Client\_Communicate@{Client\_Communicate}}
+
+
+Класс для управления сетевым взаимодействием клиента.  
+
+
+
+
+{\ttfamily \#include $<$Connection\+\_\+of\+\_\+client.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classClient__Communicate_ae7087a313c4e249a9b2741740595e922}{connection}} (int port, std\+::map$<$ std\+::string, std\+::string $>$ database, \mbox{\hyperlink{classLogger}{Logger}} $\ast$l1)
+\begin{DoxyCompactList}\small\item\em Устанавливает соединение с заданным портом. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::string \mbox{\hyperlink{classClient__Communicate_a40e99847bf08fe77b2ed0c3a12b93844}{sha224}} (const std\+::string \&input\+\_\+str)
+\begin{DoxyCompactList}\small\item\em Вычисляет SHA-\/224 хеш строки. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для управления сетевым взаимодействием клиента. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classClient__Communicate_ae7087a313c4e249a9b2741740595e922}\label{classClient__Communicate_ae7087a313c4e249a9b2741740595e922}} 
+\index{Client\_Communicate@{Client\_Communicate}!connection@{connection}}
+\index{connection@{connection}!Client\_Communicate@{Client\_Communicate}}
+\doxysubsubsection{\texorpdfstring{connection()}{connection()}}
+{\footnotesize\ttfamily int Client\+\_\+\+Communicate\+::connection (\begin{DoxyParamCaption}\item[{int}]{port,  }\item[{std\+::map$<$ std\+::string, std\+::string $>$}]{database,  }\item[{\mbox{\hyperlink{classLogger}{Logger}} $\ast$}]{l1 }\end{DoxyParamCaption})}
+
+
+
+Устанавливает соединение с заданным портом. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em port} & Номер порта для подключения. \\
+\hline
+{\em database} & Карта данных (ключ-\/значение) для использования в коммуникации. \\
+\hline
+{\em l1} & Указатель на объект логгера для отслеживания событий. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код состояния операции. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classClient__Communicate_a40e99847bf08fe77b2ed0c3a12b93844}\label{classClient__Communicate_a40e99847bf08fe77b2ed0c3a12b93844}} 
+\index{Client\_Communicate@{Client\_Communicate}!sha224@{sha224}}
+\index{sha224@{sha224}!Client\_Communicate@{Client\_Communicate}}
+\doxysubsubsection{\texorpdfstring{sha224()}{sha224()}}
+{\footnotesize\ttfamily std\+::string Client\+\_\+\+Communicate\+::sha224 (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{input\+\_\+str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Вычисляет SHA-\/224 хеш строки. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em input\+\_\+str} & Входная строка для хеширования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Хешированная строка в виде SHA-\/224. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Connection__of__client_8h}{Connection\+\_\+of\+\_\+client.\+h}}\item 
+Connection\+\_\+of\+\_\+client.\+cpp\end{DoxyCompactItemize}

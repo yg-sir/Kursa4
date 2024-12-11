@@ -1,0 +1,89 @@
+\hypertarget{classLogger}{}\doxysection{Класс Logger}
+\label{classLogger}\index{Logger@{Logger}}
+
+
+Класс для ведения логирования в файл.  
+
+
+
+
+{\ttfamily \#include $<$Logger.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classLogger_a6297ea9109e9dd5e5e0479e0505d1b28}{writelog}} (std\+::string s)
+\begin{DoxyCompactList}\small\item\em Записывает сообщение в лог-\/файл. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classLogger_abe4511220b1a16c77872deaf1fc6df55}{set\+\_\+path}} (std\+::string path\+\_\+file)
+\begin{DoxyCompactList}\small\item\em Устанавливает путь к лог-\/файлу. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classLogger_abc41bfb031d896170c7675fa96a6b30c}\label{classLogger_abc41bfb031d896170c7675fa96a6b30c}} 
+{\bfseries Logger} ()
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLogger_a9535ccda1f9e9ebe4bf017283d68e695}{Logger}} (std\+::string s)
+\begin{DoxyCompactList}\small\item\em Конструктор с заданным путем к лог-\/файлу. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для ведения логирования в файл. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classLogger_a9535ccda1f9e9ebe4bf017283d68e695}\label{classLogger_a9535ccda1f9e9ebe4bf017283d68e695}} 
+\index{Logger@{Logger}!Logger@{Logger}}
+\index{Logger@{Logger}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{Logger()}{Logger()}}
+{\footnotesize\ttfamily Logger\+::\+Logger (\begin{DoxyParamCaption}\item[{std\+::string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор с заданным путем к лог-\/файлу. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em s} & Путь к файлу лога. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classLogger_abe4511220b1a16c77872deaf1fc6df55}\label{classLogger_abe4511220b1a16c77872deaf1fc6df55}} 
+\index{Logger@{Logger}!set\_path@{set\_path}}
+\index{set\_path@{set\_path}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{set\_path()}{set\_path()}}
+{\footnotesize\ttfamily int Logger\+::set\+\_\+path (\begin{DoxyParamCaption}\item[{std\+::string}]{path\+\_\+file }\end{DoxyParamCaption})}
+
+
+
+Устанавливает путь к лог-\/файлу. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em path\+\_\+file} & Путь к файлу лога. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код состояния операции установки пути. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLogger_a6297ea9109e9dd5e5e0479e0505d1b28}\label{classLogger_a6297ea9109e9dd5e5e0479e0505d1b28}} 
+\index{Logger@{Logger}!writelog@{writelog}}
+\index{writelog@{writelog}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{writelog()}{writelog()}}
+{\footnotesize\ttfamily int Logger\+::writelog (\begin{DoxyParamCaption}\item[{std\+::string}]{s }\end{DoxyParamCaption})}
+
+
+
+Записывает сообщение в лог-\/файл. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em s} & Сообщение для записи. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код состояния операции записи. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Logger_8h}{Logger.\+h}}\item 
+Logger.\+cpp\end{DoxyCompactItemize}

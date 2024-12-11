@@ -1,0 +1,61 @@
+\hypertarget{classConnector__to__base}{}\doxysection{Класс Connector\+\_\+to\+\_\+base}
+\label{classConnector__to__base}\index{Connector\_to\_base@{Connector\_to\_base}}
+
+
+Класс для взаимодействия с базой данных.  
+
+
+
+
+{\ttfamily \#include $<$Database\+Connector.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classConnector__to__base_a906cf1b9a6857650b554dbd6416b2dbb}{connect\+\_\+to\+\_\+base}} (std\+::string base\+\_\+file=\char`\"{}/etc/vcalc.\+conf\char`\"{})
+\begin{DoxyCompactList}\small\item\em Устанавливает соединение с базой данных, читая из файла конфигурации. \end{DoxyCompactList}\item 
+std\+::map$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{classConnector__to__base_a7aeede5309284fbd0434c33d8488c981}{get\+\_\+data}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает данные базы. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для взаимодействия с базой данных. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classConnector__to__base_a906cf1b9a6857650b554dbd6416b2dbb}\label{classConnector__to__base_a906cf1b9a6857650b554dbd6416b2dbb}} 
+\index{Connector\_to\_base@{Connector\_to\_base}!connect\_to\_base@{connect\_to\_base}}
+\index{connect\_to\_base@{connect\_to\_base}!Connector\_to\_base@{Connector\_to\_base}}
+\doxysubsubsection{\texorpdfstring{connect\_to\_base()}{connect\_to\_base()}}
+{\footnotesize\ttfamily int Connector\+\_\+to\+\_\+base\+::connect\+\_\+to\+\_\+base (\begin{DoxyParamCaption}\item[{std\+::string}]{base\+\_\+file = {\ttfamily \char`\"{}/etc/vcalc.conf\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Устанавливает соединение с базой данных, читая из файла конфигурации. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em base\+\_\+file} & Путь к файлу конфигурации базы данных. По умолчанию \char`\"{}/etc/vcalc.\+conf\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код состояния операции соединения. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classConnector__to__base_a7aeede5309284fbd0434c33d8488c981}\label{classConnector__to__base_a7aeede5309284fbd0434c33d8488c981}} 
+\index{Connector\_to\_base@{Connector\_to\_base}!get\_data@{get\_data}}
+\index{get\_data@{get\_data}!Connector\_to\_base@{Connector\_to\_base}}
+\doxysubsubsection{\texorpdfstring{get\_data()}{get\_data()}}
+{\footnotesize\ttfamily std\+::map$<$ std\+::string, std\+::string $>$ Connector\+\_\+to\+\_\+base\+::get\+\_\+data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возвращает данные базы. 
+
+\begin{DoxyReturn}{Возвращает}
+Карту данных базы в формате ключ-\/значение. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{DatabaseConnector_8h}{Database\+Connector.\+h}}\item 
+Database\+Connector.\+cpp\end{DoxyCompactItemize}

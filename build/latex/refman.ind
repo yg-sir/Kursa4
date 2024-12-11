@@ -1,0 +1,69 @@
+\begin{theindex}
+
+  \item {Calculate.h}, \hyperpage{17}
+  \item {Calculator}, \hyperpage{7}
+    \subitem {Calculator}, \hyperpage{7}
+    \subitem {send\_res}, \hyperpage{8}
+  \item {Client\_Communicate}, \hyperpage{8}
+    \subitem {connection}, \hyperpage{8}
+    \subitem {sha224}, \hyperpage{9}
+  \item {comm\_proc}
+    \subitem {Interface}, \hyperpage{12}
+  \item {connect\_to\_base}
+    \subitem {Connector\_to\_base}, \hyperpage{10}
+  \item {connection}
+    \subitem {Client\_Communicate}, \hyperpage{8}
+  \item {Connection\_of\_client.h}, \hyperpage{18}
+  \item {Connector\_to\_base}, \hyperpage{9}
+    \subitem {connect\_to\_base}, \hyperpage{10}
+    \subitem {get\_data}, \hyperpage{10}
+  \item {crit\_err}, \hyperpage{11}
+    \subitem {crit\_err}, \hyperpage{11}
+
+  \indexspace
+
+  \item {DatabaseConnector.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {Errors.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {get\_data}
+    \subitem {Connector\_to\_base}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Interface}, \hyperpage{12}
+    \subitem {comm\_proc}, \hyperpage{12}
+  \item {Interface.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Logger}, \hyperpage{13}
+    \subitem {Logger}, \hyperpage{13}
+    \subitem {set\_path}, \hyperpage{14}
+    \subitem {writelog}, \hyperpage{14}
+  \item {Logger.h}, \hyperpage{24}
+
+  \indexspace
+
+  \item {no\_crit\_err}, \hyperpage{15}
+    \subitem {no\_crit\_err}, \hyperpage{15}
+
+  \indexspace
+
+  \item {send\_res}
+    \subitem {Calculator}, \hyperpage{8}
+  \item {set\_path}
+    \subitem {Logger}, \hyperpage{14}
+  \item {sha224}
+    \subitem {Client\_Communicate}, \hyperpage{9}
+
+  \indexspace
+
+  \item {writelog}
+    \subitem {Logger}, \hyperpage{14}
+
+\end{theindex}

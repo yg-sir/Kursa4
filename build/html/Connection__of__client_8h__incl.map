@@ -1,0 +1,7 @@
+<map id="Connection_of_client.h" name="Connection_of_client.h">
+<area shape="rect" id="node1" title="Объявление класса Client_Communicate для управления сетевым взаимодействием клиента." alt="" coords="8,5,179,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="73,155,132,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="22,80,85,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,80,160,107"/>
+<area shape="rect" id="node5" href="$Logger_8h.html" title="Объявление класса Logger для ведения логирования в файл." alt="" coords="184,80,261,107"/>
+</map>

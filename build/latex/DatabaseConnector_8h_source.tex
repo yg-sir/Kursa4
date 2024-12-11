@@ -1,0 +1,21 @@
+\hypertarget{DatabaseConnector_8h_source}{}\doxysection{Database\+Connector.\+h}
+\mbox{\hyperlink{DatabaseConnector_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classConnector__to__base}{Connector\_to\_base}} \{}
+\DoxyCodeLine{16 \textcolor{keyword}{private}:}
+\DoxyCodeLine{17     std::map<std::string, std::string> data\_base; }
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} \mbox{\hyperlink{classConnector__to__base_a906cf1b9a6857650b554dbd6416b2dbb}{connect\_to\_base}}(std::string base\_file = \textcolor{stringliteral}{"{}/etc/vcalc.conf"{}});}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{27     std::map<std::string, std::string> \mbox{\hyperlink{classConnector__to__base_a7aeede5309284fbd0434c33d8488c981}{get\_data}}() \{}
+\DoxyCodeLine{28         \textcolor{keywordflow}{return} data\_base;}
+\DoxyCodeLine{29     \}}
+\DoxyCodeLine{30 \};}
+
+\end{DoxyCode}

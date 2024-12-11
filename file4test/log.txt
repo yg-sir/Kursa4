@@ -20,3 +20,51 @@
 2024-12-10 21:17:33 Test log entry
 2024-12-10 21:17:33 First entry
 2024-12-10 21:17:33 Second entry
+2024-12-11 22:08:42 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:08:42 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:08:42 Port set default value
+2024-12-11 22:09:16 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:09:16 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:09:16 Port set default value
+2024-12-11 22:09:16 Connect to database success!
+2024-12-11 22:09:16 Server started
+2024-12-11 22:09:16 Listen socket created
+2024-12-11 22:11:13 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:11:13 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:11:13 Port set default value
+2024-12-11 22:11:13 Connect to database success!
+2024-12-11 22:11:13 Server started
+2024-12-11 22:11:13 Listen socket created
+2024-12-11 22:11:53 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:11:53 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:11:53 Port set default value
+2024-12-11 22:11:53 Connect to database success!
+2024-12-11 22:11:53 Server started
+2024-12-11 22:11:53 Listen socket created
+2024-12-11 22:14:14 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:14:14 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:14:14 Port set default value
+2024-12-11 22:14:37 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:14:37 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:14:37 Port set default value
+2024-12-11 22:16:21 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:16:21 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:16:21 Port set default value
+2024-12-11 22:16:21 Connect to database success!
+2024-12-11 22:16:21 Server started
+2024-12-11 22:16:21 Listen socket created
+2024-12-11 22:17:06 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:17:06 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:17:06 Port set default value
+2024-12-11 22:17:31 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:17:31 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:17:31 Port set default value
+2024-12-11 22:17:31 Connect to database success!
+2024-12-11 22:17:31 Server started
+2024-12-11 22:17:31 Listen socket created
+2024-12-11 22:19:46 Path to logfile set value: /home/stud/local_git/Kursa4/file4test/log.txt
+2024-12-11 22:19:46 Path to basefile set value: /home/stud/local_git/Kursa4/file4test/base.txt
+2024-12-11 22:19:46 Port set default value
+2024-12-11 22:19:46 Connect to database success!
+2024-12-11 22:19:46 Server started
+2024-12-11 22:19:46 Listen socket created
